@@ -1,0 +1,285 @@
+/*
+--sizzling-red: #f05d5eff;
+--skobeloff: #0f7173ff;
+--alice-blue: #e7ecefff;
+--raisin-black: #272932ff;
+--tumbleweed: #d8a47fff; 
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: #e7ecefff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar {
+	position: relative;
+	z-index: 2;
+	overflow: hidden;
+	background-color: #272932ff;
+	font-family: Arial;
+	margin-bottom: 0%;
+	text-align: center;
+}
+
+.navbar a {
+	float: left;
+	font-size: 16px;
+	text-align: center;
+	padding: 8px 8px;
+	text-decoration: none;
+	color: white;
+	margin: auto;
+}
+
+.navbar a:hover {
+	float: left;
+	font-size: 16px;
+	text-align: center;
+	padding: 8px 8px;
+	text-decoration: none;
+	color: black;
+	margin: auto;
+	background-color: white;
+}
+
+#timediv {
+	position: absolute;
+	bottom: 10;
+}
+
+#navlist{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#about {
+	display: none;
+}
+
+#skills {
+	display: none;
+}
+
+#experience {
+	display: none;
+}
+
+table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 3rem;
+    padding: 0;
+    max-width: 100%;
+    table-layout: fixed;
+}
+
+table caption {
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+}
+
+table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: .35em;
+}
+
+table th {
+    padding: .625em;
+    text-align: center;
+    overflow: auto;
+}
+
+table td {
+    padding: .625em;
+    text-align: center;
+    overflow: auto;
+}
+
+.container {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.social_container {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.social_image {
+	padding: 1rem;
+	max-width: 2rem;
+	max-height: 2rem;
+}
+
+.social_image:hover {
+	padding: 1rem;
+	max-width: 3rem;
+	max-height: 3rem;
+}
+
+.body-container {
+	position: relative;
+	z-index: 2;
+	display: flex;
+	height: 100vh;
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background: #e7ecefff;
+}
+
+@media only screen and (max-width: 600px){
+	.body-container {
+		display: flex;
+		height: 95vh;
+		width: 100%;
+		margin-left: 0%;
+		margin-right: 0%;
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+
+}
+
+.experience-item {
+	text-align: center;
+	margin-top: 1rem;
+}
+
+.experience-item h2{
+	color: #0f7173ff;
+	margin-bottom: 1rem;
+}
+
+.experience-item h3 {
+	color: #272932ff;
+}
+
+.education-heading {
+	margin-bottom: 1rem;
+}
+
+#education {
+	display: none;
+	width: 100%;
+	justify-content: center;
+	margin-top: 5rem;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+@media only screen and (max-width: 600px){
+	#education {
+		display: none;
+		margin-top: 55rem;
+		width: 100%;
+		justify-content: center;
+		padding-top: 2rem;
+		padding-bottom: 5rem;
+	}
+}
+
+.education-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	max-height: 100%;
+	width: 60%;
+	margin-top: 1rem;
+	border: 1px solid #0f7173ff;
+}
+
+.education-container-text {
+	text-align: left;	
+	padding: 1rem;
+}
+
+.education-container-text h2{
+	color: #0f7173ff;
+}
+
+.education-container-text {
+	color: #272932ff;
+}
+
+.education-container-image {
+	margin-top: 1rem;
+	padding: 1rem;
+}
+
+@media only screen and (max-width: 600px){
+	.education-container {
+		display: flex;
+		flex-direction: column-reverse;
+		overflow: scroll;
+		max-height: 100%;
+		margin-top: 1rem;
+		border: 1px solid #0f7173ff;
+	}
+	
+	.education-container-text {
+		text-align: center;
+		margin-top: 1rem;
+	}
+
+	.education-container-text h2{
+		color: #0f7173ff;
+	}
+
+	.education-container-text {
+		color: #272932ff;
+	}
+	
+	.education-container-image {
+		margin-top: 1rem;
+		padding: 1rem;
+	}
+}
+
+.image{
+	max-height: 5rem;
+	max-width: 5rem;
+}
+
+.about-body {
+	margin-top: 1rem;
+}
+
+.self_image{
+	height: 12rem;
+	width: 10rem;
+	object-fit: cover;
+	border-radius: 50%;
+}
+

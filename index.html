@@ -1,0 +1,163 @@
+<html>
+	<head>
+		<title>Profile:SV</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="./styles/style.css"></link>
+		
+	</head>
+	<body>
+		<div class="navbar">
+			<ul id="navlist">
+				<li><a id = "homebut" href="#" onclick="showHome()">Home</a></li>
+				<li><a id = "edubut" href="#" onclick="showEducation()">Education</a></li>
+				<li><a id = "expbut" href="#" onclick="showExp()">Experience</a></li>
+				<li><a id = "skillbut" href="#" onclick="showSkills()">Skills</a></li>
+			</ul>
+		</div>
+		<div style="position: absolute; z-index: 1; width: 100%; heigth: 95vh;">
+			<img src="./images/bgimage.jpeg" style="width: 100%; heigth: 100%;">
+		</div>
+		<div class="body-container">
+			<div id="home" class="container">
+				<img class="self_image" src="./images/Selfpic.jpg" alt="Selfpic">	
+				<h1> SARTHAK VERMA </h1>
+				<div class="social_container">
+					<a href="https://www.linkedin.com/in/sarthak-verma-325118123/"><img class="social_image" src="./images/linkedin.png" alt="linkedin"></img></a>
+					<a href="https://github.com/Sarthakgit98"><img class="social_image" src="./images/github.png" alt="github"></img></a>
+					<a href="mailto:sarthak19398@gmail.com"><img class="social_image" src="./images/mail.png" alt="email"></img></a>
+				</div>
+				<div class="about-body">
+					<p>M.Tech student in IIIT Hyderabad looking for opportunities to work and grow in Machine Learning or Software development fields</p>
+					<br><br><br>
+				</div>
+				<div class="about-resume">
+					<p>Resume: <a href="https://drive.google.com/file/d/16XSTmhCG0XzBxi__mFyTWqJUnWMmyUD4/view?usp=sharing"><i class="fas fa-file"></i></a></p>
+				</div>
+				<div id="timediv">
+				</div>
+			</div>
+	
+			<div id="education" class="container">
+				<div class="education-heading">
+					<h1> EDUCATION </h1>
+				</div>
+				<div class="education-container">
+					<div class="education-container-text">
+						<h2>M.Tech</h2>
+						<h3>International Institute of Information Technology, Hyderabad</h3>
+						<h4>May 2023</h4>
+						<p>
+							Pursuing
+						</p>
+					</div>
+					<div class="education-container-image">
+						<a href="https://www.iiit.ac.in/"><img class="image" src="./images/iiit.png" alt="iiit.png"></a>
+					</div>
+				</div>
+				<div class="education-container">
+					<div class="education-container-text">
+						<h2>B.Tech</h2>
+						<h3>Maharaja Surajmal Institute of Technology</h3>
+						<h4>September 2020</h4>
+						<p>
+							CGPA: 7.95/10
+						</p>
+					</div>
+					<div class="education-container-image">
+						<a href="https://www.msit.in/"><img class="image" src="./images/msit.png" alt="vis.png"></a>
+					</div>
+				</div>
+				<div class="education-container">
+					<div class="education-container-text">
+						<h2>Class XII</h2>
+						<h3>Venkateshwar International School, Dwarka</h3>
+						<h4>July 2016</h4>
+						<p>
+							Aggregate: 92.5%
+						</p>
+					</div>
+					<div class="education-container-image">
+						<a href="https://www.vis10dwarka.com/"><img class="image" src="./images/vis.png" alt="vis.png"></a>
+					</div>
+				</div>
+				<div class="education-container">
+					<div class="education-container-text">
+						<h2>Class X</h2>
+						<h3>Venkateshwar International School, Dwarka</h3>
+						<h4>July 2014</h4>
+						<p>
+							CGPA: 10/10
+						</p>
+					</div>
+					<div class="education-container-image">
+						<a href="https://www.vis10dwarka.com/"><img class="image" src="./images/vis.png" alt="vis.png"></a>
+					</div>
+				</div>
+			</div>
+			
+			<div id="experience" class="container">
+				<div class="experience-heading">
+					<h1> EXPERIENCE </h1>
+				</div>
+				
+				<div class="experience-item">
+					<h2>Associate Software Engineer</h2>
+					<h3>Accenture</h3>
+					<h4>Feb 2021 - Aug 2021</h4>
+					<p>
+						Data warehousing- ETL with SAS
+					</p>
+					<br><br><br>
+				</div>
+				
+				<div class="experience-heading">
+					<h1> PROJECTS </h1>
+				</div>
+				
+				<div class="experience-item">
+					<h2>Dog Breed Identification</h2>
+					<h3>Python, Tensorflow, Keras, PIL</h3>
+					<p>
+						A mobilenet based CNN that takes 20x20 sized pictures with dogs and attempts to identify their breed out of 120 known categories.
+					</p>
+				</div>
+			</div>
+	
+			<div id="skills" class="container">
+				<div class="heading">
+					<h1>SKILLS</h1>
+				</div>
+				<div class="table">
+					<table>
+						<tr>
+							<th rowspan="2">C++</th>
+							<td>Data structures</td>
+						</tr>
+						<tr>
+							<td>Algorithms</td>
+						</tr>
+						<tr>
+							<th rowspan="4">Python</th>
+							<td>Machine learning and AI</td>
+						</tr>
+						<tr>
+							<td>Data manipulation</td>
+						</tr>
+						<tr>
+							<td>Data analysis with pandas/numpy</td>
+						</tr>
+						<tr>
+							<td>Computer vision</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+
+		<script src="./scripts/script.js"></script>
+		<script src="https://kit.fontawesome.com/e942c52946.js" crossorigin="anonymous"></script>
+	</body>
+</html>
