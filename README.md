@@ -14,3 +14,8 @@ Requirements fulfilled include:
 Usage:
 1. Start by opening index.html
 2. Use navbar at the top to navigate through content
+
+Or
+
+1. Go to "sarthakgit98.github.io"
+2. Use navbar at the top to navigate through content
